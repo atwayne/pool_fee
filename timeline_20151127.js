@@ -11,7 +11,7 @@ var players = [
   new Player('joseph'), // 4
   new Player('max'), // 5
   new Player('carl', 0.7), // 6
-  new Player('taotao') // 7
+  new Player('taotao',0.3) // 7
 ];
 
 var tables = [
