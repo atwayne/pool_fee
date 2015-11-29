@@ -20,14 +20,6 @@ var caculate = function(pool, caculateAt) {
 
   for (var i = 0; i < players.length; i++) {
     var player = players[i];
-	if(player.alias=='taotao'||player.alias=='tt'||player.alias=='TT'){
-		player.discount=player.discount/3;
-	}
-	
-	if(player.alias=='wayne'||player.alias=='Wayne'||player.alias=='Wei'||player.alias=='wei'||player.alias=='WangWei'||player.alias=='wangwei'){
-		player.discount=player.discount*2;
-	}
-	
     player.fee += (player.discount / sumOfWeight) * sumOfFee;
   }
 };
